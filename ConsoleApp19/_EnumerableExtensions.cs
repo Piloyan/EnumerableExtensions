@@ -1,12 +1,5 @@
 ﻿public static class _EnumerableExtensions
 {
-    public static IEnumerable<int> _Add(this IEnumerable<int> soure)
-    {
-        foreach (var item in soure)
-        {
-            yield return item + 3;
-        }
-    }
     public static IEnumerable<int> _First(this IEnumerable<int> source)
     {
         if (source == null)
