@@ -11,7 +11,7 @@
     {
         if (source == null)
         {
-            throw new ArgumentNullException("null");
+            throw new ArgumentNullException();
         }
         foreach (var item in source)
         {
